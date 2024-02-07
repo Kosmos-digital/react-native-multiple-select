@@ -53,6 +53,7 @@ export interface MultiSelectProps {
     filterMethod?: string;
     noItemsText?: string;
     selectedText?: string;
+    hideSearch?: boolean;
 }
 
 export default class MultiSelect extends React.Component<MultiSelectProps> {
